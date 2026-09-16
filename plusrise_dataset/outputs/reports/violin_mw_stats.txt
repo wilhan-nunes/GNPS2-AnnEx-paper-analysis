@@ -1,0 +1,55 @@
+== assumption checks ==
+  Shapiro-Wilk Inconsistent evidence    n= 310  raw W=0.854 p=1.79e-16   log10 W=0.967 p=1.72e-06
+  Shapiro-Wilk Inconclusive             n= 658  raw W=0.885 p=1.13e-21   log10 W=0.987 p=1.23e-05
+  Shapiro-Wilk Consistent evidence      n= 380  raw W=0.912 p=4.31e-14   log10 W=0.993 p=6.20e-02
+  Levene (Brown-Forsythe) W=0.155  p=8.561e-01
+  -> MW is non-normal in every group; Kruskal-Wallis is the primary test.
+
+== 1. omnibus: Kruskal-Wallis (PRIMARY) ==
+  H = 16.103   df = 2   p = 3.186e-04
+  epsilon^2 = 0.0105  (small)
+
+== 2. cross-check: Welch ANOVA on log10(MW) ==
+  F(2, 723.8) = 7.357   p = 6.867e-04
+
+== 3. post-hoc: Dunn test, Holm-adjusted (PRIMARY) ==
+                       Inconsistent evidence  Inconclusive  Consistent evidence
+Inconsistent evidence                1.00000       0.08121              0.00026
+Inconclusive                         0.08121       1.00000              0.01026
+Consistent evidence                  0.00026       0.01026              1.00000
+
+  robustness checks (same pairs, different post-hoc):
+  Conover-Iman, Holm-adjusted:
+                       Inconsistent evidence  Inconclusive  Consistent evidence
+Inconsistent evidence                1.00000       0.07984              0.00025
+Inconclusive                         0.07984       1.00000              0.00994
+Consistent evidence                  0.00025       0.00994              1.00000
+  Dwass-Steel-Critchlow-Fligner (self-adjusting):
+                       Inconsistent evidence  Inconclusive  Consistent evidence
+Inconsistent evidence                1.00000       0.18111               0.0003
+Inconclusive                         0.18111       1.00000               0.0134
+Consistent evidence                  0.00030       0.01340               1.0000
+
+== 4. effect sizes (Mann-Whitney U + Cliff's delta) ==
+  comparison                                                    U     p_holm     p_dunn   Cliff d  magnitude
+  Inconsistent evidence vs Inconclusive                     94822   7.74e-02   8.12e-02    +0.070  negligible ns
+  Inconclusive vs Consistent evidence                      111908   9.66e-03   1.03e-02    +0.105  negligible *
+  Inconsistent evidence vs Consistent evidence              48771   3.02e-04   2.59e-04    +0.172  small ***
+
+== 5. ordered-alternative trend (Jonckheere-Terpstra) ==
+  H1: MW increases across Inconsistent -> Inconclusive -> Consistent
+  J = 316319   z = 3.999   p_normal = 6.361e-05
+  permutation p (20k one-sided) = 0.00005  -> normal approximation validated
+  Spearman(label rank, MW) rho = +0.109  p = 6.422e-05
+
+== descriptives (MW, Da) ==
+                         n   mean     sd     q1  median     q3
+confidence_label                                              
+Inconsistent evidence  310  245.2  118.9  151.3   211.6  294.9
+Inconclusive           658  253.3  113.9  168.1   230.1  308.1
+Consistent evidence    380  269.3  111.2  187.9   246.1  323.3
+
+== interpretation ==
+  Groups differ significantly (p = 3.19e-04) BUT epsilon^2 = 0.0105 means
+  MW explains ~1.0% of the variance in confidence label.
+  The relationship is real and monotonic but far too weak to predict a label from mass.

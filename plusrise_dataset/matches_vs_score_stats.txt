@@ -1,0 +1,18 @@
+scans analysed: 1348
+Spearman rho = 0.725  p = 3.288e-220
+Pearson  r   = 0.646  p = 9.244e-160
+linear fit: score = 3.329 * n_matches + 49.03  (R^2 = 0.417)
+
+median / mean consistency score per match count:
+               count   mean  median
+total_matches                      
+1                283  45.57   49.90
+2                178  60.84   73.75
+3                 72  68.60   74.65
+4                 74  66.72   74.95
+5                 76  71.01   76.80
+6                 56  74.22   80.55
+7                 34  74.33   77.75
+8                 23  76.46   83.80
+9                 36  71.90   73.65
+10               516  81.27   87.30

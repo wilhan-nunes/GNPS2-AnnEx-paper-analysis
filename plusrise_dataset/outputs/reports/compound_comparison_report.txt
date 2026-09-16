@@ -1,0 +1,144 @@
+================================================================================
+TOP-COMPOUND vs TOP-COSINE-COMPOUND COMPARISON REPORT
+Task: b22ff1bc41624e29a28cf6e12fe17ad5
+Generated: 2026-08-11
+================================================================================
+
+SUMMARY
+----------------------------------------
+Total annotated scans:                      1348
+Scans where top_cosine_overridden = True:     93
+  - Genuinely different compound
+    (names differ after normalization):        90
+  - Same compound, different label/salt:       3
+Scans where override = False but names
+  differ (same structure, alt. DB name):     211
+
+  Override rate (genuine):  6.7% of all annotated scans
+
+CONFIDENCE LABEL BREAKDOWN (genuine overrides only)
+----------------------------------------
+  Inconsistent evidence          49  (54.4%)
+  Inconclusive                   39  (43.3%)
+  Consistent evidence             2  (2.2%)
+
+CONFIDENCE SCORE STATS (genuine overrides)
+----------------------------------------
+  Mean:    54.8
+  Median:  53.5
+  Std:     11.8
+  Min:     25.1
+  Max:     83.1
+
+SYNONYM / SALT CASES (overridden=True, same normalized name)
+----------------------------------------
+  Scan 31619: 'losartan' vs 'losartan'
+  Scan 25625: 'Glycitein' vs 'Glycitein'
+  Scan 3056: 'Adenosine' vs 'Adenosine'
+
+DETAILED TABLE — GENUINE OVERRIDES (sorted by confidence score, desc)
+--------------------------------------------------------------------------------
+   Scan        MZ   Score  Label                   MaxCosine  Hits  TopCompound                          TopCosineCompound
+--------------------------------------------------------------------------------
+  19429   384.174    83.1  Consistent evidence        0.9407    10  quetiapine                           Quetiapine fumarate (Seroquel)
+  14386   253.097    80.9  Consistent evidence        0.9696    10  1a,10b-Dihydro-6H-dibenz(b,f)oxiren  3-hydroxy-11-benzo[b][1]benzazepinecarboxamid
+   6175   196.060    76.5  Inconclusive               0.9421    10  4-HYDROXY-BZ-GLY-OH                  3-Hydroxyhippuric acid
+  17763   238.099    76.0  Inconclusive               0.9670    10  Radafaxine                           hydroxybupropion
+  32475   279.093    75.4  Inconclusive               0.8496     9  Triphenylphosphine oxide             4-amino-N-(4,6-dimethylpyrimidin-2-yl)benzene
+  13906   246.170    75.1  Inconclusive               0.9561    10  DTXSID40865579                       pentanoylcarnitine
+  22527   384.173    75.1  Inconclusive               0.9717    10  quetiapine                           QUETIAPINE HEMIFUMARATE
+  32854   415.211    72.5  Inconclusive               0.9665    10  Trospium                             BET-IN-1
+  12436   196.060    72.2  Inconclusive               0.9372    10  4-HYDROXY-BZ-GLY-OH                  3-Hydroxyhippuric acid
+  15556   174.112    71.8  Inconclusive               0.9404    10  N-Acetyl-L-leucine                   N-Acetylisoleucine
+  20851   196.060    71.5  Inconclusive               0.9367    10  4-HYDROXY-BZ-GLY-OH                  2-benzamido-2-hydroxyacetic acid
+  16168   188.128    69.4  Inconclusive               0.9060     3  nan                                  GABA-C5:0
+  32226   181.049    69.3  Inconclusive               0.9556    10  2-acetyloxybenzoic acid              2-methoxycarbonylbenzoic acid
+   5582   153.127    67.5  Inconclusive               0.8388    10  D-camphor                            Limonene-1,2-epoxide from METLIN
+  13206   149.096    67.3  Inconclusive               0.7901     3  Nezukone                             4-(3-hydroxybutyl)phenol
+  31357   373.275    67.1  Inconclusive               0.7928    10  Cholic acid                          Choldienic acid putative
+  15739   196.060    66.7  Inconclusive               0.9024    10  4-HYDROXY-BZ-GLY-OH                  2-benzamido-2-hydroxyacetic acid
+   7736   409.186    64.1  Inconclusive               0.7337     4  tryptophan                           Trp-C11:1
+   1617   194.117    63.9  Inconclusive               0.9270     5  Salsoline                            Heliamine
+   4148   194.117    63.1  Inconclusive               0.9291     5  Salsoline                            Heliamine
+  29142   309.089    62.1  Inconclusive               0.8128     8  "8-chloro-1-methyl-6-phenyl-4H-[1,2  Alprazolam
+  34270   149.023    62.1  Inconclusive               0.8867     9  Phthalic acid                        4_IMIDAZOLEACETATE
+   2820   178.086    61.8  Inconclusive               0.7946     9  1,2,3,4-tetrahydroquinoline-4-carbo  2-(2,3-dihydro-1H-indol-6-yl)acetic acid
+  21082   600.264    61.8  Inconclusive               0.8842    10  (2R,3R,4S,5S,6R)-2-[[6-hydroxy-4-(4  2-[[5-(4-hydroxy-3,5-dimethoxyphenyl)-6,7-bis
+  19334   253.096    61.4  Inconclusive               0.9795    10  1a,10b-Dihydro-6H-dibenz(b,f)oxiren  3-hydroxy-11-benzo[b][1]benzazepinecarboxamid
+   1984   288.202    61.1  Inconclusive               0.7991     4  Ile-Arg                              Arg-Ile
+   1087   265.111    60.2  Inconclusive               0.9777    10  Thiamine chloride                    THIAMINE
+  14897   107.049    59.9  Inconclusive               0.8840     4  3-hydroxybenzyl alcohol              guaiacol
+    482   343.123    59.5  Inconclusive               0.9214    10  sucrose                              2.alpha.-Mannobiose
+  20545   308.175    59.2  Inconclusive               0.8924     8  Zolpidem                             ZOLPIDEM TARTRATE
+   9973   298.115    59.0  Inconclusive               0.7860    10  7-Methylguanosine                    nan
+  33469   205.195    58.3  Inconclusive               0.9826    10  (.+/-.)-trans-Nerolidol              Bisabolol
+   6478   152.070    58.0  Inconclusive               0.9749    10  N-(4-hydroxyphenyl)acetamide         (3aR,7aS)-3a,4,7,7a-tetrahydroisoindole-1,3-d
+  13087   134.060    57.7  Inconclusive               0.9038     7  4-methyl-2-propyl-1,3-oxazole-5-car  INDOXYL SULFATE
+  16050   279.171    57.6  Inconclusive               0.8078     5  AKOS018371418                        Leu-Phe
+   1069   325.112    56.8  Inconclusive               0.9445    10  alpha-lactose                        Melibiose
+   2029   268.104    56.6  Inconclusive               0.8543    10  2'-Deoxyguanosine                    Vidarabine
+  13661   149.023    56.6  Inconclusive               0.8898     9  Phthalic acid                        Phthalic anhydride
+  32779   235.169    56.6  Inconclusive               0.7193     5  (1R,4S,5S,6R,9R)-5,6-dihydroxy-4,11  2-Pentenoic acid, 5-(3-hydroxy-2,3-dimethylbi
+  16108   153.127    55.7  Inconclusive               0.9019    10  D-camphor                            (1S,4R)-p-Mentha-2,8-dien-1-ol from METLIN
+  14974   134.060    55.1  Inconclusive               0.9264    10  5-HYDROXYINDOLE                      INDOXYL SULFATE
+  10740   161.059    54.6  Inconsistent evidence      0.7907    10  6-Methylcoumarin                     4-HYDROXY-3-METHOXYCINNAMALDEHYDE
+  11956   153.127    54.3  Inconsistent evidence      0.8096    10  D-camphor                            Limonene-1,2-epoxide from METLIN
+  10932   144.081    53.9  Inconsistent evidence      0.7931     3  naphthalen-2-amine                   Tryptophanol (not validated)
+  31120   149.023    53.6  Inconsistent evidence      0.8754     9  Phthalic acid                        4_IMIDAZOLEACETATE
+   2573   298.114    53.5  Inconsistent evidence      0.9368    10  Nelarabine                           nan
+   7852   153.127    53.2  Inconsistent evidence      0.7339    10  D-camphor                            Limonene-1,2-epoxide from METLIN
+   2548   152.070    53.1  Inconsistent evidence      0.9644    10  Paracetamol                          N-(2-hydroxyphenyl)acetamide
+   7048   151.112    53.1  Inconsistent evidence      0.7377     3  Jasmine lactone                      Perillaldehyde
+  28602   137.132    53.0  Inconsistent evidence      0.9156    10  (�)-beta-Pinene                      Limonene
+  32284   205.195    52.8  Inconsistent evidence      0.9444    10  NEROLIDOL                            Bisabolol
+  33096   279.232    52.3  Inconsistent evidence      0.7815    10  gamma-Linolenic acid                 9(10)-EpOME
+  16668   192.065    52.2  Inconsistent evidence      0.9339    10  5-HYDROXYINDOLEACETATE               2-oxindole-3-acetic acid
+   8757   174.112    51.8  Inconsistent evidence      0.8769     3  nan                                  GABA-C4:0
+  19294   189.148    51.5  Inconsistent evidence      0.8219     5  10-HYDROXYDECANOIC ACID              3-Hydroxycapric acid
+  11075   190.107    51.5  Inconsistent evidence      0.8658     5  3-hydroxypropionyl valine [M+H]+     Possible Lac-Val
+  30366   130.065    51.2  Inconsistent evidence      0.7175     3  Indole-3-carbinol                    Quinoline; Leucoline_CE45
+  13407   135.117    51.1  Inconsistent evidence      0.9469     7  CARVEOL                              .alpha.-Pinene oxide
+  30087   207.137    51.0  Inconsistent evidence      0.8004     4  (2S)-2-(4-isobutylphenyl)propionic   IbuprofenLysine
+   7306   129.055    50.2  Inconsistent evidence      0.8995     3  3-METHYLGLUTARIC ACID                Adipic acid
+   5435   137.059    49.4  Inconsistent evidence      0.8432     3  "1-(2,4-dihydroxy-5-methylphenyl)-2  2-Hydroxy-3-methoxybenzyl alcohol
+   9719   194.117    49.1  Inconsistent evidence      0.7627     7  1-(1,3-benzodioxol-5-yl)-N-methylpr  Phenethylamine_pyruvate (known isomers: 0; is
+  13757   265.118    49.1  Inconsistent evidence      0.9811    10  PHENYLACETYL-GLUTAMINE               Phenyl-Ac-Gln-OH
+  22001   203.179    48.2  Inconsistent evidence      0.7618     3  b-Caryophyllene oxide                1-methyl-4-methylidene-7-(propan-2-yl)-1,2,3,
+  15462   231.170    48.1  Inconsistent evidence      0.7562     5  Val-Leu                              Leu-Val
+  10030   201.159    47.7  Inconsistent evidence      0.7556     5  N-acetylcadaverine_pyruvaldehyde (k  nan
+   1930   294.154    47.5  Inconsistent evidence      0.7212     3  Glucosamine_alpha-Ketoisocaproic ac  N-Fructosyl isoleucine
+  15593   137.132    47.4  Inconsistent evidence      0.9084    10  (�)-beta-Pinene                      Limonene
+   2189   415.213    46.7  Inconsistent evidence      0.9508    10  Trospium                             2H-Oxireno[1,10a]phenanthro[3,2-b]furan-10(11
+  25681   137.132    45.2  Inconsistent evidence      0.8943    10  (S)-(?)-Citronellal                  Limonene
+  34349   247.166    45.0  Inconsistent evidence      0.9610    10  Ornithine_alpha-Ketoisocaproic acid  o-acetyl serine_Cyclohexanone (known isomers:
+  12128   423.126    44.7  Inconsistent evidence      0.9043     9  (2R,3S)-7-[(2S,3R,4R,5S)-3,4-dihydr  2-[[(2R,3S)-2-(3,4-dihydroxyphenyl)-3,5-dihyd
+  21887   137.132    43.5  Inconsistent evidence      0.8860    10  (-)-alpha-Pinene                     alpha-Pinene
+  21351   249.070    43.1  Inconsistent evidence      0.9487    10  4-(4-aminophenyl)sulfonylaniline     4,4'-Diaminodiphenyl sulfone
+  25789   145.064    42.8  Inconsistent evidence      0.7439     4  naphthalen-2-ol                      4-Methylcinnamic acid
+  13700   137.132    42.3  Inconsistent evidence      0.8992    10  (-)-alpha-Pinene                     Limonene
+  13951   133.064    40.8  Inconsistent evidence      0.9125     5  4-methoxy-3-methylbenzaldehyde       3,4-Dimethylbenzoic acid
+  24867   133.064    40.8  Inconsistent evidence      0.9133     5  4-methoxy-3-methylbenzaldehyde       3,4-Dimethylbenzoic acid
+  26869   133.064    40.6  Inconsistent evidence      0.9086     5  4-methoxy-3-methylbenzaldehyde       3,4-Dimethylbenzoic acid
+  11959   188.070    40.1  Inconsistent evidence      0.9306    10  L-Tryptophan                         DL-Indole-3-lactic acid
+   6771   188.070    39.9  Inconsistent evidence      0.9171    10  L-Tryptophan                         DL-Indole-3-lactic acid
+  22979   261.196    39.3  Inconsistent evidence      0.8101     5  OXYMETAZOLINE                        Oxymetazoline hydrochloride
+   4481   183.064    39.0  Inconsistent evidence      0.7500    10  METHYL VANILLATE                     pimelic acid
+   7310   137.059    38.7  Inconsistent evidence      0.7061     5  P-ANISALDEHYDE                       2-Hydroxy-3-methoxybenzyl alcohol
+   9604   188.070    38.1  Inconsistent evidence      0.9203    10  L-Tryptophan                         DL-Indole-3-lactic acid
+  29496   173.096    37.7  Inconsistent evidence      0.7456     9  thymol                               .gamma.-Tocotrienol
+   4779   192.065    37.2  Inconsistent evidence      0.7604     5  nan                                  L-Kynurenine
+  19132   149.023    35.1  Inconsistent evidence      0.9019    10  Phthalic anhydride                   4_IMIDAZOLEACETATE
+   6336   298.111    33.4  Inconsistent evidence      0.9273    10  Nelarabine                           nan
+  11602   190.097    25.1  Inconsistent evidence      0.7804     4  3-hydroxypropionyl valine [M+H]+     Possible Lac-Val
+
+NOTES ON NORMALIZATION
+----------------------------------------
+  Names were normalized before comparison:
+  1. Lowercased and Unicode-normalized (NFKD)
+  2. Trailing parentheticals stripped (trade names, sources)
+  3. Leading 'Spectral match to' prefixes removed
+  4. CE (collision energy) annotations stripped (_CE25, - 40.0 eV, etc.)
+  5. Underscores replaced with spaces; whitespace collapsed
+  The 'top_cosine_overridden' flag in the CSV was also consulted directly.
+
+================================================================================

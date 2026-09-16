@@ -1,0 +1,135 @@
+
+======================================================================
+  TopKonfidence — Ground Truth Accuracy Report
+  Task : 31bb8489077242c69e3502e45f4061e2
+  Ground-truth compounds  :   96
+  Scans with library match:  545  (485 have no GT)
+  Overlap (scored + GT)   :   60
+  GT scans with NO match  :   36  (37.5% missed entirely)
+======================================================================
+
+ANNOTATION ACCURACY  (top_compound vs ground_truth)
+--------------------------------------------------
+  Correct (incl. stereo variants) :   40  (66.7%)
+  Close (fuzzy sim >= 0.82)        :    8  (13.3%)
+  Wrong (different compound)       :    9  (15.0%)
+  Candidate/acyl annotation        :    1  (1.7%)  [unresolved name]
+  CAS number (no name)             :    2  (3.3%)  [unresolved name]
+
+  Excluding unresolved names (3 scans):
+    Correct :   40  (70.2%)
+    Close   :    8  (14.0%)
+    Wrong   :    9  (15.8%)
+
+ACCURACY BY CONFIDENCE CATEGORY
+--------------------------------------------------
+  Consistent evidence       n= 20  correct= 11 (55%)  close= 4  wrong=  4 (20%)  unresolved= 1
+  Inconclusive              n= 31  correct= 22 (71%)  close= 4  wrong=  3 (10%)  unresolved= 2
+  Inconsistent evidence     n=  9  correct=  7 (78%)  close= 0  wrong=  2 (22%)  unresolved= 0
+
+ACCURACY BY SCORE DECILE
+----------------------------------------------------------------------
+  Score range           n    Correct    Close    Wrong  Unresolved
+  ------------------  ----  ---------  -------  -------  ----------
+  (40.0, 50.0]           5     3 (  60%)    0 (  0%)    2 ( 40%)      0 (  0%)
+  (50.0, 60.0]           8     6 (  75%)    1 ( 12%)    1 ( 12%)      0 (  0%)
+  (60.0, 70.0]          12     8 (  67%)    1 (  8%)    2 ( 17%)      1 (  8%)
+  (70.0, 80.0]          15    12 (  80%)    2 ( 13%)    0 (  0%)      1 (  7%)
+  (80.0, 90.0]          17    10 (  59%)    3 ( 18%)    3 ( 18%)      1 (  6%)
+  (90.0, 100.0]          3     1 (  33%)    1 ( 33%)    1 ( 33%)      0 (  0%)
+
+WRONG ANNOTATIONS  (true errors — different compound identified)
+----------------------------------------------------------------------
+  scan=  3488  score= 94.0  truth=GLYCOCHOLATE                    top=Glycocholic acid
+  scan=  1564  score= 82.9  truth=GUANOSINE DIPHOSPHATE MANNOSE   top=GUANOSINE 5'-DIPHOSPHOGLUCOSE
+  scan=  3519  score= 81.6  truth=CORTISOL 21-ACETATE             top=hydrocortisone acetate
+  scan=   729  score= 80.4  truth=DIAMINOPIMELATE                 top=DL-2,6-Diaminopimelic acid
+  scan=   852  score= 68.9  truth=CYSTEATE                        top=furoic acid
+  scan=  1701  score= 67.3  truth=NADP                            top=Nicotinamide adenine dinucleotide p
+  scan=  2634  score= 57.1  truth=3,4-DIHYDROXYBENZOATE           top=Gentisic acid
+  scan=  1262  score= 47.3  truth=1-AMINOCYCLOPROPANECARBOXYLATE  top=L-Allothreonine CollisionEnergy:102
+  scan=  2234  score= 42.3  truth=4-ACETAMIDOBUTANOATE            top=4-ACETAMIDOBUTYRIC ACID
+
+UNRESOLVED NAMES  (CAS numbers or Candidate annotations)
+----------------------------------------------------------------------
+  scan=  3115  score= 85.3  truth=N-ACETYLPHENYLALANINE         top=Candidate Phenylalanine-C2:0 (delta mass
+  scan=  3618  score= 74.1  truth=N-ETHYL-5-METHYL-2-(1-METHYL  top=39711-79-0
+  scan=  2481  score= 60.4  truth=3-HYDROXYANTHRANILATE         top=56546-36-2
+
+FAILURE MODE ANALYSIS
+----------------------------------------------------------------------
+  High-confidence wrong predictions (score >= 55): 7
+    scan=  3488  score= 94.0  matches=  51  truth=GLYCOCHOLATE               top=Glycocholic acid
+    scan=  1564  score= 82.9  matches=  14  truth=GUANOSINE DIPHOSPHATE MAN  top=GUANOSINE 5'-DIPHOSPHOGLUCOSE
+    scan=  3519  score= 81.6  matches=  27  truth=CORTISOL 21-ACETATE        top=hydrocortisone acetate
+    scan=   729  score= 80.4  matches=  26  truth=DIAMINOPIMELATE            top=DL-2,6-Diaminopimelic acid
+    scan=   852  score= 68.9  matches=   3  truth=CYSTEATE                   top=furoic acid
+    scan=  1701  score= 67.3  matches=  15  truth=NADP                       top=Nicotinamide adenine dinucleot
+    scan=  2634  score= 57.1  matches=   2  truth=3,4-DIHYDROXYBENZOATE      top=Gentisic acid
+
+  Wrong by WCRS but correct by count-based: 0
+
+  Single-match scans: 2  correct=2  wrong=0
+
+NAME CLEANING ISSUES  (correct compound, bad name in top_compound)
+----------------------------------------------------------------------
+  (would show as 'wrong' before synonym expansion)
+  [Already resolved in this run by synonym table, but indicates library
+   name hygiene issues that should be fixed in _clean_compound_name]
+
+SCORE DISTRIBUTION: correct vs wrong
+----------------------------------------------------------------------
+                             Mean   Median      Std     n
+  Correct                    71.2     72.8     13.2    40
+  Wrong                      69.1     68.9     17.4     9
+
+COMPONENT MEANS: correct vs wrong
+----------------------------------------------------------------------
+  Component                         Correct      Wrong      Delta
+  structure_agreement_frac            0.934      0.899     +0.035
+  tanimoto_score                      0.959      0.914     +0.045
+  cosine_consistency                  0.938      0.957     -0.019
+  max_cosine                          0.949      0.936     +0.013
+  shared_peaks_score                  0.543      0.563     -0.020
+  mz_precision                        0.787      0.777     +0.010
+
+======================================================================
+RECOMMENDATIONS
+======================================================================
+
+1. COVERAGE GAP (most critical):
+   36 of 96 ground-truth compounds (38%) have NO library
+   match returned by this task. Possible causes:
+   - Low topK setting: increase to 50-100 hits per query.
+   - Strict mz-tolerance: loosen the search window.
+   - Missing reference spectra in the libraries searched.
+
+2. HIGH-CONFIDENCE WRONG PREDICTIONS (7 scans, score >= 55):
+   These are the most harmful errors. Root causes observed:
+   - scan 1564: GDP-glucose returned for GDP-mannose (structural
+     isomers). The WCRS/Tanimoto can't distinguish them if SMILES are
+     missing or library conflates mannose/glucose annotations.
+   - scan 852: Furoic acid returned for Cysteate — likely a
+     cosine false positive at similar precursor mass. Adding a precursor
+     m/z exact-match gate or stricter PPM filter would help.
+
+3. NAME CLEANING ISSUES IN LIBRARY ANNOTATIONS:
+   The following name patterns are NOT cleaned by _clean_compound_name
+   and pollute top_compound, causing incorrect-looking outputs:
+   - 'CollisionEnergy:102040' suffix (only 'N eV' style is stripped)
+   - Bare CAS registry numbers (e.g. '56546-36-2', '39711-79-0')
+   - 'Candidate X-C2:0 (delta mass:...)' acyl-lipid annotations
+   - '(known structural isomers: N; isobaric peaks in run: N)' notes
+   Fix: extend _clean_compound_name with these four patterns.
+
+4. SCORE CALIBRATION:
+   Correct mean: 71.2  |  Wrong mean: 69.1
+
+5. TANIMOTO / WCRS:
+   Correct-vs-wrong Tanimoto delta: +0.045
+   Tanimoto does not discriminate well between correct and wrong here.
+   This is expected when wrong predictions are structural isomers or
+   when SMILES are missing and tanimoto falls back to structure_agreement.
+
+Full per-scan detail: eval_results.csv
+======================================================================

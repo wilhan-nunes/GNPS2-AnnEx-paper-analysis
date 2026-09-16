@@ -1,0 +1,19 @@
+scans scored: 1348   used in analysis: 1348
+
+== Spearman correlation matrix (components + consistency score) ==
+                     Structure agreement  Tanimoto  Cosine consistency  Max cosine  Shared peaks  Library diversity  Consistency score
+Structure agreement                1.000     0.815               0.487       0.400         0.143              0.606              0.797
+Tanimoto                           0.815     1.000               0.436       0.385         0.165              0.591              0.676
+Cosine consistency                 0.487     0.436               1.000       0.361         0.153              0.480              0.658
+Max cosine                         0.400     0.385               0.361       1.000         0.506              0.451              0.550
+Shared peaks                       0.143     0.165               0.153       0.506         1.000              0.185              0.256
+Library diversity                  0.606     0.591               0.480       0.451         0.185              1.000              0.681
+Consistency score                  0.797     0.676               0.658       0.550         0.256              0.681              1.000
+
+== component vs consistency score ==
+Structure agreement     Spearman rho =  0.797 (p = 6.61e-297)   Pearson r =  0.727 (p = 5.68e-222)
+Tanimoto                Spearman rho =  0.676 (p = 9.89e-181)   Pearson r =  0.637 (p = 4.56e-154)
+Cosine consistency      Spearman rho =  0.658 (p = 5.82e-168)   Pearson r =  0.808 (p = 2.86e-311)
+Max cosine              Spearman rho =  0.550 (p = 2.41e-107)   Pearson r =  0.486 (p = 9.30e-81)
+Shared peaks            Spearman rho =  0.256 (p = 1.30e-21)   Pearson r =  0.170 (p = 3.12e-10)
+Library diversity       Spearman rho =  0.681 (p = 1.20e-184)   Pearson r =  0.573 (p = 1.51e-118)

@@ -1,0 +1,61 @@
+scans scored: 1348   matched to MGF: 1348   analysed: 1348
+charge states used: {1.0: 1340, 2.0: 8}
+
+== MW vs confidence score ==
+Spearman rho = 0.133  p = 8.914e-07
+Pearson  r   = 0.084  p = 1.992e-03
+Kruskal-Wallis on MW across labels: H = 16.10  p = 3.186e-04
+
+median MW per label:
+                       count         25%         50%         75%
+confidence_label                                                
+Consistent evidence    380.0  187.867724  246.131224  323.343474
+Inconclusive           658.0  168.050974  230.099724  308.099724
+Inconsistent evidence  310.0  151.334474  211.598224  294.879974
+
+== label counts per MW bin ==
+confidence_label  Consistent evidence  Inconclusive  Inconsistent evidence
+mw_bin                                                                    
+<150                               34           104                     66
+150–200                            83           158                     71
+200–250                            80           112                     49
+250–300                            68           110                     56
+300–350                            41            61                     20
+350–400                            21            41                     14
+400–500                            39            53                     24
+500–600                            10            12                      4
+≥600                                4             7                      6
+
+== label share (%) per MW bin ==
+confidence_label  Consistent evidence  Inconclusive  Inconsistent evidence
+mw_bin                                                                    
+<150                             16.7          51.0                   32.4
+150–200                          26.6          50.6                   22.8
+200–250                          33.2          46.5                   20.3
+250–300                          29.1          47.0                   23.9
+300–350                          33.6          50.0                   16.4
+350–400                          27.6          53.9                   18.4
+400–500                          33.6          45.7                   20.7
+500–600                          38.5          46.2                   15.4
+≥600                             23.5          41.2                   35.3
+
+== confidence score per MW bin ==
+         count   mean  median
+mw_bin                       
+<150       204  63.45   63.15
+150–200    312  67.27   67.25
+200–250    241  69.66   72.10
+250–300    234  69.05   70.85
+300–350    122  71.09   74.70
+350–400     76  69.49   73.25
+400–500    116  70.77   74.40
+500–600     26  70.87   76.00
+≥600        17  61.26   65.40
+
+== MW vs peak count ==
+Pearson  r   = 0.143  p = 1.444e-07
+Spearman rho = 0.088  p = 1.159e-03
+linear fit: n_peaks = 0.0326 * MW + 31.76  (R^2 = 0.020)
+
+== peak count vs confidence score ==
+Spearman rho = 0.019  p = 4.956e-01

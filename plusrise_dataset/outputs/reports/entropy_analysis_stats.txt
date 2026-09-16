@@ -1,0 +1,90 @@
+scans analysed: 1348
+entropy: ms_entropy 0.01 noise floor, 0.02 Da merge, cap 100 peaks, clean_spectrum=True
+
+== how the three complexity measures relate ==
+  Spearman(n_peaks_raw, n_peaks_filtered) = 0.656  p = 7.58e-167
+  Spearman(n_peaks_raw, eff_peaks) = 0.515  p = 3.43e-92
+  Spearman(n_peaks_filtered, eff_peaks) = 0.933  p = 0.00e+00
+  Spearman(S, n_peaks_raw) = 0.515  p = 3.43e-92
+  Spearman(S, n_peaks_filtered) = 0.933  p = 0.00e+00
+
+       n_peaks_raw  n_peaks_filtered  eff_peaks        S
+count      1348.00           1348.00    1348.00  1348.00
+mean         40.11             24.57      10.76     2.07
+std          26.20             18.84       9.88     0.77
+min           4.00              2.00       1.11     0.10
+25%          21.75             11.00       4.51     1.51
+50%          35.00             19.00       7.64     2.03
+75%          50.25             32.00      13.03     2.57
+max         223.00            100.00      69.79     4.25
+
+== each measure vs confidence score (Spearman) ==
+  n_peaks_raw        rho = +0.019  p = 4.96e-01
+  n_peaks_filtered   rho = -0.062  p = 2.31e-02
+  eff_peaks          rho = -0.068  p = 1.27e-02
+  S                  rho = -0.068  p = 1.27e-02
+  mw                 rho = +0.136  p = 5.63e-07
+
+== confidence by entropy quantile bin ==
+confidence_label  Consistent evidence  Inconclusive  Inconsistent evidence
+S_q                                                                       
+(0.103, 1.295]                     76           103                     46
+(1.295, 1.699]                     73           105                     47
+(1.699, 2.034]                     65           105                     54
+(2.034, 2.386]                     46           116                     62
+(2.386, 2.837]                     62           115                     48
+(2.837, 4.245]                     58           114                     53
+
+confidence_label  Consistent evidence  Inconclusive  Inconsistent evidence
+S_q                                                                       
+(0.103, 1.295]                   33.8          45.8                   20.4
+(1.295, 1.699]                   32.4          46.7                   20.9
+(1.699, 2.034]                   29.0          46.9                   24.1
+(2.034, 2.386]                   20.5          51.8                   27.7
+(2.386, 2.837]                   27.6          51.1                   21.3
+(2.837, 4.245]                   25.8          50.7                   23.6
+
+                count   mean  median
+S_q                                 
+(0.103, 1.295]    225  70.15   73.10
+(1.295, 1.699]    225  69.29   72.30
+(1.699, 2.034]    224  68.13   69.85
+(2.034, 2.386]    224  65.97   67.40
+(2.386, 2.837]    225  68.10   70.30
+(2.837, 4.245]    225  67.51   69.30
+
+== confidence by named entropy band (bin/mgf_loader._entropy_label) ==
+confidence_label        Consistent evidence  Inconclusive  Inconsistent evidence
+entropy_band                                                                    
+noisy / low quality                       4             3                      2
+moderate quality                         30            44                     20
+clean / good quality                    127           179                     81
+very diffuse / uniform                  219           432                    207
+
+confidence_label        Consistent evidence  Inconclusive  Inconsistent evidence
+entropy_band                                                                    
+noisy / low quality                    44.4          33.3                   22.2
+moderate quality                       31.9          46.8                   21.3
+clean / good quality                   32.8          46.3                   20.9
+very diffuse / uniform                 25.5          50.3                   24.1
+
+                        count   mean  median
+entropy_band                                
+noisy / low quality         9  74.92   79.10
+moderate quality           94  70.36   73.10
+clean / good quality      387  69.10   70.80
+very diffuse / uniform    858  67.48   69.35
+
+== MW vs entropy ==
+  Spearman(mw, S) = +0.213  p = 2.99e-15
+  Spearman(mw, eff_peaks) = +0.213  p = 2.99e-15
+
+== partial: does entropy explain the low-MW penalty? ==
+  MW<150:  n=205  median S=1.686  median eff_peaks=5.4  median score=63.1
+  MW>=150: n=1143  median S=2.118  median eff_peaks=8.3  median score=70.8
+  Mann-Whitney on S (low vs high MW): U=77282  p=7.89e-15
+
+  Spearman(mw, score) within each entropy band:
+    moderate quality         n=  94  rho=+0.162  p=1.19e-01
+    clean / good quality     n= 387  rho=+0.130  p=1.08e-02
+    very diffuse / uniform   n= 858  rho=+0.167  p=9.23e-07
