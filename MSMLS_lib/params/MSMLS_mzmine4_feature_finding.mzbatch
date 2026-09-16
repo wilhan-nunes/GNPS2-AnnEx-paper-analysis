@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<batch mzmine_version="4.8.5">
+    <batchstep method="io.github.mzmine.modules.io.import_rawdata_all.AllSpectralDataImportModule" module_name="Import MS data" parameter_version="1">
+        <parameter name="File names">
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A1_BETA-NICOTINAMIDE_ADENINE_DINUCLEOTIDE_02.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A1_BETA-NICOTINAMIDE_ADENINE_DINUCLEOTIDE_02.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A1_DEOXYADENOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A1_DEOXYADENOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A1_DIAMINOPIMELATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A1_DIAMINOPIMELATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A1_PUTRESCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A1_PUTRESCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A1-2-METHOXYESTRONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A1-2-METHOXYESTRONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A2_AMINOADIPATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A2_AMINOADIPATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A2_GLUTAMINE_02.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A2_GLUTAMINE_02.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A2_N-ACETYLPUTRESCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A2_N-ACETYLPUTRESCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A2_SORBATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A2_SORBATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A2-4-QUINOLINECARBOXYLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A2-4-QUINOLINECARBOXYLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A3_ADENOSINE-2',3'-CYCLIC-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A3_ADENOSINE-2',3'-CYCLIC-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A3_DEOXYCYTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A3_DEOXYCYTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A3_HYPOTAURINE_02.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A3_HYPOTAURINE_02.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A3_MONOETHYLMALONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A3_MONOETHYLMALONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A3_N-ACETYLGALACTOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A3_N-ACETYLGALACTOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A4_GLUCONOLACTONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A4_GLUCONOLACTONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A4_MEVALOLACTONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A4_MEVALOLACTONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A4_N-METYL-ALANINE_02.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A4_N-METYL-ALANINE_02.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A4-DETHIOBIOTIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A4-DETHIOBIOTIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A5_2,4-DIHYDROXYPTERIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A5_2,4-DIHYDROXYPTERIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A5_4-HYDROXYBENZOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A5_4-HYDROXYBENZOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A5_GALACTOSE-1-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A5_GALACTOSE-1-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A5_GLUCOSAMINE-6-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A5_GLUCOSAMINE-6-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A6_THREONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A6_THREONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A6_TYRAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A6_TYRAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A7_CORTISOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A7_CORTISOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A7_N-ACETYLCYSTEINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A7_N-ACETYLCYSTEINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A7_PURINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A7_PURINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A7-N-ACETYLSEROTONIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A7-N-ACETYLSEROTONIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A8_CAFFEINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A8_CAFFEINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A8_INOSINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A8_INOSINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A8_N-ACETYLNEURAMINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A8_N-ACETYLNEURAMINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A8_PHOSPHORYLCHOLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A8_PHOSPHORYLCHOLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A8-N-ETHYL-5-METHYL-2-(1-METHYLETHYL)-CYCLOHEXANECARBOXAMIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A8-N-ETHYL-5-METHYL-2-(1-METHYLETHYL)-CYCLOHEXANECARBOXAMIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A9_HOMOCYSTEINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A9_HOMOCYSTEINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A9_N-ACETYLMANNOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A9_N-ACETYLMANNOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A9_O-ACETYLCARNITINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A9_O-ACETYLCARNITINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A9_PANTOTHENATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A9_PANTOTHENATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A9-ITACONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A9-ITACONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A10_2-AMINOISOBUTYRATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A10_2-AMINOISOBUTYRATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A10_6-HYDROXYDOPAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A10_6-HYDROXYDOPAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A10_THEOPHYLLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A10_THEOPHYLLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A10_XANTHURENATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A10_XANTHURENATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A10-AZELATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A10-AZELATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A11_ANILINE-2-SULFONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A11_ANILINE-2-SULFONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A11_LEUCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A11_LEUCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A11_THIAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A11_THIAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A11_TRANS-ACONITATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A11_TRANS-ACONITATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A12_INDOXYL-beta-GLUCOSIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A12_INDOXYL-beta-GLUCOSIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A12_S-CARBOXYMETHYLCYSTEINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A12_S-CARBOXYMETHYLCYSTEINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\A12_URATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\A12_URATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B1_5-METHYLCYTOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B1_5-METHYLCYTOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B1_BETAINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B1_BETAINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B1_CYTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B1_CYTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B2_MELATONIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B2_MELATONIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B2_SERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B2_SERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B2_TRYPTOPHAN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B2_TRYPTOPHAN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B3_3-SULFINOALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B3_3-SULFINOALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B3_CYTIDINE-2',3'-CYCLIC-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B3_CYTIDINE-2',3'-CYCLIC-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B3_HISTIDINOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B3_HISTIDINOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B4_CITRULLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B4_CITRULLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B4_N,N,N-TRIMETHYLLYSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B4_N,N,N-TRIMETHYLLYSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B4_O-SUCCINYL-HOMOSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B4_O-SUCCINYL-HOMOSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B4_THYMIDINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B4_THYMIDINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B5_ALLANTOIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B5_ALLANTOIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B5_TAURINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B5_TAURINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B5_UREIDOPROPIONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B5_UREIDOPROPIONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B6_5-AMINOPENTANOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B6_5-AMINOPENTANOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B6_GLYCERALDEHYDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B6_GLYCERALDEHYDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B6_N-ACETYLTRYPTOPHAN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B6_N-ACETYLTRYPTOPHAN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B6_URIDINE-DIPHOSPHATE-GLUCOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B6_URIDINE-DIPHOSPHATE-GLUCOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B7_NICOTINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B7_NICOTINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B7_NICOTINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B7_NICOTINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B7_NORLEUCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B7_NORLEUCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B7-2,6-DIHYDROXYPYRIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B7-2,6-DIHYDROXYPYRIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B8_(2-AMINOETHYL)PHOSPHONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B8_(2-AMINOETHYL)PHOSPHONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B8_INOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B8_INOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B8_N-FORMYLGLYCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B8_N-FORMYLGLYCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B8_PYRIDOXAL-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B8_PYRIDOXAL-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B9_ADENOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B9_ADENOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B9_DIHYDROXYACETONE-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B9_DIHYDROXYACETONE-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B9_GAMMA-AMINOBUTYRATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B9_GAMMA-AMINOBUTYRATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B9_KYNURENATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B9_KYNURENATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B10_CYTOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B10_CYTOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B10_PHOSPHOENOLPYRUVATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B10_PHOSPHOENOLPYRUVATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B10_RAFFINOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B10_RAFFINOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B10-SUBERATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B10-SUBERATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B11_ISOLEUCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B11_ISOLEUCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B11_MANNOSE-6-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B11_MANNOSE-6-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B11_THREITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B11_THREITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B11-ADIPATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B11-ADIPATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B12_2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B12_2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\B12_GLUCOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\B12_GLUCOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C1_GLUTAMATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C1_GLUTAMATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C1_L-CARNITINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C1_L-CARNITINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C1_PARAXANTHINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C1_PARAXANTHINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C1-N-ACETYLLEUCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C1-N-ACETYLLEUCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C2_3,5-DIIODO-L-TYROSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C2_3,5-DIIODO-L-TYROSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C2_ADENOSINE_5'-DIPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C2_ADENOSINE_5'-DIPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C2_ASCORBATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C2_ASCORBATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C2_O-PHOSPHOETHANOLAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C2_O-PHOSPHOETHANOLAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C2-2',4'-DIHYDROXYACETOPHENONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C2-2',4'-DIHYDROXYACETOPHENONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C3_O-ACETYLSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C3_O-ACETYLSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C4_1-METHYL-L-HISTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C4_1-METHYL-L-HISTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C4_CYTIDINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C4_CYTIDINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C4_LACTOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C4_LACTOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C4_N-ACETYLGLUCOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C4_N-ACETYLGLUCOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C4_TRYPTAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C4_TRYPTAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C5_3-HYDROXYBUTANOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C5_3-HYDROXYBUTANOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C5_4-AMINOBENZOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C5_4-AMINOBENZOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C5_GALACTITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C5_GALACTITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C5_GUANOSINE-DIPHOSPHATE-MANNOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C5_GUANOSINE-DIPHOSPHATE-MANNOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C5-INDOLE-3-METHYL-ACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C5-INDOLE-3-METHYL-ACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C6_4-IMIDAZOLEACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C6_4-IMIDAZOLEACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C6_GLUTARATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C6_GLUTARATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C6_OXOPROLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C6_OXOPROLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C6-MEVALONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C6-MEVALONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C7_4-PYRIDOXATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C7_4-PYRIDOXATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C7_CREATININE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C7_CREATININE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C8_ADENOSINE-3',5'-DIPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C8_ADENOSINE-3',5'-DIPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C8_CAFFEATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C8_CAFFEATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C8_QUINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C8_QUINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C9_3-NITRO-L-TYROSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C9_3-NITRO-L-TYROSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C9_CYCLIC-AMP.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C9_CYCLIC-AMP.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C9_DIHYDROOROTATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C9_DIHYDROOROTATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C9_LUMICHROME.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C9_LUMICHROME.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C10_BETA-ALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C10_BETA-ALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C10_METHIONINE-SULFOXIMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C10_METHIONINE-SULFOXIMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C10_P-OCTOPAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C10_P-OCTOPAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C11_CIS-4-HYDROXY-D-PROLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C11_CIS-4-HYDROXY-D-PROLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C11_GUANIDINOACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C11_GUANIDINOACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C11_N-ACETYLPHENYLALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C11_N-ACETYLPHENYLALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C11_N-ALPHA-ACETYLLYSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C11_N-ALPHA-ACETYLLYSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C11-SALSOLINOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C11-SALSOLINOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C12_N1-ACETYLSPERMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C12_N1-ACETYLSPERMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C12_N-ACETYLPROLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C12_N-ACETYLPROLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C12_URIDINE-DIPHOSPHATEGALACTOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C12_URIDINE-DIPHOSPHATEGALACTOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\C12-SALICYLAMIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\C12-SALICYLAMIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D1_1-METHYLADENOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D1_1-METHYLADENOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D1_GLUCOSAMINE-6-SULFATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D1_GLUCOSAMINE-6-SULFATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D1_L-TRYPTOPHANAMIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D1_L-TRYPTOPHANAMIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D2_DEOXYURIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D2_DEOXYURIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D2_METHIONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D2_METHIONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D2_PYRIDOXAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D2_PYRIDOXAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D3_3-METHYLHISTAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D3_3-METHYLHISTAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D3_5-AMINOLEVULINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D3_5-AMINOLEVULINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D3_GLUCONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D3_GLUCONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D3_N-METHYLTRYPTAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D3_N-METHYLTRYPTAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D3-3-ALPHA,11-BETA,17,21-TETRAHYDROXY-5-BETA-PREGNAN-20-ONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D3-3-ALPHA,11-BETA,17,21-TETRAHYDROXY-5-BETA-PREGNAN-20-ONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D4_2-PHOSPHOGLYCERATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D4_2-PHOSPHOGLYCERATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D4_DEOXYURIDINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D4_DEOXYURIDINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D4_UROCANATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D4_UROCANATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D5_5'-DEOXYADENOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D5_5'-DEOXYADENOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D5_KYNURENINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D5_KYNURENINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D5_METHYLTHIOADENOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D5_METHYLTHIOADENOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D5-HOMOGENTISATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D5-HOMOGENTISATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D6_METHYL-4-AMINOBUTYRATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D6_METHYL-4-AMINOBUTYRATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D6_PYROGLUTAMATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D6_PYROGLUTAMATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D6_THYMIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D6_THYMIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D6-INDOLEACETALDEHYDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D6-INDOLEACETALDEHYDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D7_4-ACETAMIDOBUTANOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D7_4-ACETAMIDOBUTANOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D7_INDOLE-3-ETHANOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D7_INDOLE-3-ETHANOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D7_N-FORMYL-L-METHIONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D7_N-FORMYL-L-METHIONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D7_XANTHOSINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D7_XANTHOSINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D8_ACETYLCHOLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D8_ACETYLCHOLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D8_FERULATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D8_FERULATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D9_DEOXYGUANOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D9_DEOXYGUANOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D9_GLYCOCHOLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D9_GLYCOCHOLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10_5-HYDROXYTRYPTOPHAN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10_5-HYDROXYTRYPTOPHAN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10_DOPAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10_DOPAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10_OROTATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10_OROTATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10_PHENYLETHANOLAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10_PHENYLETHANOLAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10_XANTHINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10_XANTHINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D10-PYRIDOXAL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D10-PYRIDOXAL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D11_ADENOSINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D11_ADENOSINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D11_D-ALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D11_D-ALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D12_CYSTINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D12_CYSTINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D12_LYSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D12_LYSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D12_THEOBROMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D12_THEOBROMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\D12-SEBACATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\D12-SEBACATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E1_GLYCOCHENODEOXYCHOLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E1_GLYCOCHENODEOXYCHOLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E1_GUANIDINOSUCCINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E1_GUANIDINOSUCCINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E1_L-ALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E1_L-ALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E1_SPERMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E1_SPERMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E1-3-METHYL-2-OXINDOLE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E1-3-METHYL-2-OXINDOLE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E2_1-DIAMINOPROPANE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E2_1-DIAMINOPROPANE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E2_DIETHANOLAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E2_DIETHANOLAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E2_HISTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E2_HISTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E2_N-ACETYLMETHIONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E2_N-ACETYLMETHIONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E2-3-METHYLADENINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E2-3-METHYLADENINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E3_3-AMINO-5-HYDROXYBENZOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E3_3-AMINO-5-HYDROXYBENZOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E3_ALLOTHREONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E3_ALLOTHREONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E3_PHOSPHOSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E3_PHOSPHOSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E3_URIDINE_MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E3_URIDINE_MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E4_1-AMINOCYCLOPROPANECARBOXYLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E4_1-AMINOCYCLOPROPANECARBOXYLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E4_PHOSPHOCREATINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E4_PHOSPHOCREATINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E4_PROLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E4_PROLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E4-BIOTIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E4-BIOTIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E5_3,4-DIHYDROXYBENZOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E5_3,4-DIHYDROXYBENZOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E5_AICAR.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E5_AICAR.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E5_SPERMIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E5_SPERMIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E5_THYMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E5_THYMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E6_ADENOSINE-DIPHOSPHATE-RIBOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E6_ADENOSINE-DIPHOSPHATE-RIBOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E6_CYSTATHIONINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E6_CYSTATHIONINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E6_URIDINE-DIPHOSPHATE-N-ACETYLGALACTOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E6_URIDINE-DIPHOSPHATE-N-ACETYLGALACTOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E7_NORVALINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E7_NORVALINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E7-PYRROLE-2-CARBOXYLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E7-PYRROLE-2-CARBOXYLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E8_CITRAMALATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E8_CITRAMALATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E8_CYCLIC-GMP.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E8_CYCLIC-GMP.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E8_URIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E8_URIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E8-5-HYDROXYINDOLEACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E8-5-HYDROXYINDOLEACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E9_ANSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E9_ANSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E9_HOMOCYSTEINE-THIOLACTONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E9_HOMOCYSTEINE-THIOLACTONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E9_PHOSPHONOACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E9_PHOSPHONOACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E10_10-HYDROXYDECANOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E10_10-HYDROXYDECANOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E10_CARNOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E10_CARNOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E10_O-PHOSPHOSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E10_O-PHOSPHOSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E11_5-HYDROXYLYSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E11_5-HYDROXYLYSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E11_NICOTINAMIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E11_NICOTINAMIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E11_S-ADENOSYLHOMOCYSTEINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E11_S-ADENOSYLHOMOCYSTEINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E12_2-HYDROXYPYRIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E12_2-HYDROXYPYRIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E12_ARGININE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E12_ARGININE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\E12_L-ORNITHINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\E12_L-ORNITHINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F1_ADENINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F1_ADENINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F1_OPHTHALMATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F1_OPHTHALMATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F1_TRANS-4-HYDROXY-L-PROLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F1_TRANS-4-HYDROXY-L-PROLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F2_N6-(DELTA2-ISOPENTENYL)-ADENINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F2_N6-(DELTA2-ISOPENTENYL)-ADENINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F2_NORMETANEPHRINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F2_NORMETANEPHRINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F2_PHENYLALANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F2_PHENYLALANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F2-XYLITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F2-XYLITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F3_HOMOCYSTINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F3_HOMOCYSTINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F3_TRIGONELLINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F3_TRIGONELLINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F3_URACIL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F3_URACIL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F3_URIDINE-DIPHOSPHATE-N-ACETYLGLUCOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F3_URIDINE-DIPHOSPHATE-N-ACETYLGLUCOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F3-RIBITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F3-RIBITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F4_GUANOSINE-DIPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F4_GUANOSINE-DIPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F4_N-METHYLGLUTAMATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F4_N-METHYLGLUTAMATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F4-MYOINOSITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F4-MYOINOSITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F5_ASPARTATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F5_ASPARTATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F5_D-ORNITHINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F5_D-ORNITHINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F5_GLUTATHIONE-REDUCED.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F5_GLUTATHIONE-REDUCED.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F5_LIPOAMIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F5_LIPOAMIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F6_3-HYDROXYANTHRANILATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F6_3-HYDROXYANTHRANILATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F6_CADAVERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F6_CADAVERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F6_DEOXYCYTIDINE_MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F6_DEOXYCYTIDINE_MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F6_XANTHOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F6_XANTHOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F7_HYPOXANTHINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F7_HYPOXANTHINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F7_N,N-DIMETHYLARGININE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F7_N,N-DIMETHYLARGININE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F8_CREATINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F8_CREATINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F8_CYTIDINE-DIPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F8_CYTIDINE-DIPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F8_THYROTROPIN_RELEASING_HORMONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F8_THYROTROPIN_RELEASING_HORMONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F9_CYSTEATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F9_CYSTEATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F9_L-DOPA.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F9_L-DOPA.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F10_5-METHYLCYTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F10_5-METHYLCYTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F10_GUANOSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F10_GUANOSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F10_HISTAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F10_HISTAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F11_CDP-ETHANOLAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F11_CDP-ETHANOLAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F11_CORTISOL-21-ACETATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F11_CORTISOL-21-ACETATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F11_DIHYDROURACIL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F11_DIHYDROURACIL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F11-MANNITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F11-MANNITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\F12-MELIBIOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\F12-MELIBIOSE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G1_HIPPURATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G1_HIPPURATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G1-SORBITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G1-SORBITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G2_DEOXYCYTIDINE-DIPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G2_DEOXYCYTIDINE-DIPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G2_ETHYLMALONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G2_ETHYLMALONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G2_N-ACETYLASPARAGINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G2_N-ACETYLASPARAGINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G2_TYROSINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G2_TYROSINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G3_PIPECOLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G3_PIPECOLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G4_ASPARAGINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G4_ASPARAGINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G4_GLUCOSE_6-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G4_GLUCOSE_6-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G4_URACIL-5-CARBOXYLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G4_URACIL-5-CARBOXYLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G4-L-GULONOLACTONE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G4-L-GULONOLACTONE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G5_HYDROXYKYNURENINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G5_HYDROXYKYNURENINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G5_NADP.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G5_NADP.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G5_VALINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G5_VALINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G6_4-HYDROXYBENZALDEHYDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G6_4-HYDROXYBENZALDEHYDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G6_6-PHOSPHOGLUCONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G6_6-PHOSPHOGLUCONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G6_GALACTOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G6_GALACTOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G6_GUANINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G6_GUANINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G7_GUANOSINE-MONOPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G7_GUANOSINE-MONOPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G7_HOMOSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G7_HOMOSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G8_3-METHOXYTYRAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G8_3-METHOXYTYRAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G8_GLYCEROL-3-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G8_GLYCEROL-3-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G8_PYRIDOXINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G8_PYRIDOXINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G8-ARABITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G8-ARABITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G9_CYANOCOBALAMIN.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G9_CYANOCOBALAMIN.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G10_2-QUINOLINECARBOXYLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G10_2-QUINOLINECARBOXYLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G10_4-HYDROXY-L-PHENYLGLYCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G10_4-HYDROXY-L-PHENYLGLYCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G10_FOLATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G10_FOLATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G11_D-MANNOSAMINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G11_D-MANNOSAMINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G11_N-ACETYLSERINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G11_N-ACETYLSERINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G11_NICOTINAMIDE_MONONUCLEOTIDE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G11_NICOTINAMIDE_MONONUCLEOTIDE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\G12_3-METHYL-L-HISTIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\G12_3-METHYL-L-HISTIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H1_N-ACETYLGLYCINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H1_N-ACETYLGLYCINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H2_2-AMINOPHENOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H2_2-AMINOPHENOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H2_N-ACETYLASPARTATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H2_N-ACETYLASPARTATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H5_NORSPERMIDINE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H5_NORSPERMIDINE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H6_3-AMINO-4-HYDROXYBENZOATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H6_3-AMINO-4-HYDROXYBENZOATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H8_2-METHYLCITRATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H8_2-METHYLCITRATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H8_ERYTHRITOL.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H8_ERYTHRITOL.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H9_GLUCOSAMINATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H9_GLUCOSAMINATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H10_BETA-GLYCEROPHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H10_BETA-GLYCEROPHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H11_GLUCOSE-1-PHOSPHATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H11_GLUCOSE-1-PHOSPHATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H12_2,3-DIAMINOPROPIONATE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H12_2,3-DIAMINOPROPIONATE.mzXML</file>
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\detected_mzXML\H12_D-SEDOHEPTULOSE.mzXML">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\detected_mzXML\H12_D-SEDOHEPTULOSE.mzXML</file>
+        </parameter>
+        <parameter name="Try vendor centroiding">true</parameter>
+        <parameter name="Advanced import" selected="false">
+            <parameter name="Scan filters" selected="true">
+                <parameter name="Scan number"/>
+                <parameter name="Base Filtering Integer"/>
+                <parameter name="Retention time"/>
+                <parameter name="Mobility"/>
+                <parameter name="MS level filter" selected="All MS levels">1</parameter>
+                <parameter name="Scan definition"/>
+                <parameter name="Polarity">Any</parameter>
+                <parameter name="Spectrum type">ANY</parameter>
+            </parameter>
+            <parameter name="Crop MS1 m/z" selected="false"/>
+            <parameter name="MS1 detector (Advanced)" selected="false" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">2.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">1000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="MS2 detector (Advanced)" selected="false" selected_item="Factor of lowest signal">
+                <module name="Factor of lowest signal">
+                    <parameter name="Noise factor">2.5</parameter>
+                </module>
+                <module name="Auto">
+                    <parameter name="Noise level">1000.0</parameter>
+                </module>
+                <module name="Centroid">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Exact mass">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Local maxima">
+                    <parameter name="Noise level"/>
+                </module>
+                <module name="Recursive threshold">
+                    <parameter name="Noise level"/>
+                    <parameter name="Min m/z peak width"/>
+                    <parameter name="Max m/z peak width"/>
+                </module>
+                <module name="Wavelet transform">
+                    <parameter name="Noise level"/>
+                    <parameter name="Scale level"/>
+                    <parameter name="Wavelet window size (%)"/>
+                </module>
+            </parameter>
+            <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        </parameter>
+        <parameter name="Metadata file" selected="false"/>
+        <parameter name="Sort and color">true</parameter>
+        <parameter name="Spectral library files">
+            <file relative_path="..\..\..\..\..\250115_Metabolite Homemade Database\260225_Database library v4 msp.msp">C:\Users\terrac\Documents\Thèse\Manips\250115_Metabolite Homemade Database\260225_Database library v4 msp.msp</file>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" module_name="Mass detection" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time">
+                <min>0.0</min>
+                <max>25.02</max>
+            </parameter>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Scan types (IMS)">All scan types</parameter>
+        <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        <parameter name="Mass detector" selected_item="Centroid">
+            <module name="Factor of lowest signal">
+                <parameter name="Noise factor">2.5</parameter>
+            </module>
+            <module name="Auto">
+                <parameter name="Noise level">550000.0</parameter>
+            </module>
+            <module name="Centroid">
+                <parameter name="Noise level">1000000.0</parameter>
+            </module>
+            <module name="Exact mass">
+                <parameter name="Noise level">100000.0</parameter>
+            </module>
+            <module name="Local maxima">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Recursive threshold">
+                <parameter name="Noise level"/>
+                <parameter name="Min m/z peak width"/>
+                <parameter name="Max m/z peak width"/>
+            </module>
+            <module name="Wavelet transform">
+                <parameter name="Noise level"/>
+                <parameter name="Scale level"/>
+                <parameter name="Wavelet window size (%)"/>
+            </module>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_massdetection.MassDetectionModule" module_name="Mass detection" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time">
+                <min>0.0</min>
+                <max>25.02</max>
+            </parameter>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS2, level = 2">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Scan types (IMS)">All scan types</parameter>
+        <parameter name="Denormalize fragment scans (traps)">false</parameter>
+        <parameter name="Mass detector" selected_item="Centroid">
+            <module name="Factor of lowest signal">
+                <parameter name="Noise factor">2.5</parameter>
+            </module>
+            <module name="Auto">
+                <parameter name="Noise level">550000.0</parameter>
+            </module>
+            <module name="Centroid">
+                <parameter name="Noise level">5000.0</parameter>
+            </module>
+            <module name="Exact mass">
+                <parameter name="Noise level">100000.0</parameter>
+            </module>
+            <module name="Local maxima">
+                <parameter name="Noise level"/>
+            </module>
+            <module name="Recursive threshold">
+                <parameter name="Noise level"/>
+                <parameter name="Min m/z peak width"/>
+                <parameter name="Max m/z peak width"/>
+            </module>
+            <module name="Wavelet transform">
+                <parameter name="Noise level"/>
+                <parameter name="Scale level"/>
+                <parameter name="Wavelet window size (%)"/>
+            </module>
+        </parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_adapchromatogrambuilder.ModularADAPChromatogramBuilderModule" module_name="Chromatogram builder" parameter_version="1">
+        <parameter name="Raw data files" type="BATCH_LAST_FILES"/>
+        <parameter name="Scan filters" selected="true">
+            <parameter name="Scan number"/>
+            <parameter name="Base Filtering Integer"/>
+            <parameter name="Retention time">
+                <min>0.0</min>
+                <max>25.02</max>
+            </parameter>
+            <parameter name="Mobility"/>
+            <parameter name="MS level filter" selected="MS1, level = 1">1</parameter>
+            <parameter name="Scan definition"/>
+            <parameter name="Polarity">Any</parameter>
+            <parameter name="Spectrum type">ANY</parameter>
+        </parameter>
+        <parameter name="Minimum consecutive scans">4</parameter>
+        <parameter name="Minimum intensity for consecutive scans">0.0</parameter>
+        <parameter name="Minimum absolute height">1000000.0</parameter>
+        <parameter name="m/z tolerance (scan-to-scan)">
+            <absolutetolerance>0.001</absolutetolerance>
+            <ppmtolerance>8.0</ppmtolerance>
+        </parameter>
+        <parameter name="Suffix">chromatograms</parameter>
+        <parameter name="Allow single scan chromatograms"/>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.featdet_chromatogramdeconvolution.minimumsearch.MinimumSearchFeatureResolverModule" module_name="Local minimum feature resolver" parameter_version="2">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Suffix">resolved</parameter>
+        <parameter name="Original feature list">KEEP</parameter>
+        <parameter name="MS/MS scan pairing" selected="true">
+            <parameter name="MS1 to MS2 precursor tolerance (m/z)">
+                <absolutetolerance>0.01</absolutetolerance>
+                <ppmtolerance>8.0</ppmtolerance>
+            </parameter>
+            <parameter name="Retention time filter" selected="Use feature edges" unit="MINUTES">0.2</parameter>
+            <parameter name="Minimum relative feature height" selected="true">0.25</parameter>
+            <parameter name="Minimum required signals" selected="true">1</parameter>
+            <parameter name="Limit by ion mobility edges">false</parameter>
+            <parameter name="Merge MS/MS spectra (TIMS)">false</parameter>
+            <parameter name="Minimum detections in IMS dimension">2</parameter>
+            <parameter name="Advanced" selected="false">
+                <parameter name="Minimum signal intensity (absolute, TIMS)" selected="false">250.0</parameter>
+                <parameter name="Minimum signal intensity (relative, TIMS)" selected="true">0.01</parameter>
+                <parameter name="Group iterative MS2s" selected="false">mainQuantFile</parameter>
+            </parameter>
+        </parameter>
+        <parameter name="Dimension">Retention time</parameter>
+        <parameter name="Chromatographic threshold">0.8</parameter>
+        <parameter name="Minimum search range RT/Mobility (absolute)">0.04</parameter>
+        <parameter name="Minimum relative height">0.0</parameter>
+        <parameter name="Minimum absolute height">1000000.0</parameter>
+        <parameter name="Min ratio of peak top/edge">1.75</parameter>
+        <parameter name="Peak duration range (min/mobility)">
+            <min>0.0</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Minimum scans (data points)">4</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_isotopegrouper.IsotopeGrouperModule" module_name="13C isotope filter (formerly: isotope grouper)" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">deisotoped</parameter>
+        <parameter name="m/z tolerance (intra-sample)">
+            <absolutetolerance>0.001</absolutetolerance>
+            <ppmtolerance>8.0</ppmtolerance>
+        </parameter>
+        <parameter name="Retention time tolerance" unit="MINUTES">0.1</parameter>
+        <parameter name="Mobility tolerance" selected="false"/>
+        <parameter name="Monotonic shape">true</parameter>
+        <parameter name="Maximum charge">3</parameter>
+        <parameter name="Representative isotope">Most intense</parameter>
+        <parameter name="Never remove feature with MS2">true</parameter>
+        <parameter name="Original feature list">KEEP</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_rowsfilter.RowsFilterModule" module_name="Feature list rows filter" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">0.2-16min</parameter>
+        <parameter name="Keep or remove rows">Keep rows that match all criteria</parameter>
+        <parameter name="Original feature list">KEEP</parameter>
+        <parameter name="Minimum aligned samples" selected="false">
+            <abs>5</abs>
+            <rel>0.05</rel>
+        </parameter>
+        <parameter name="Minimum aligned samples (in any group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter name="Metadata grouping"/>
+        </parameter>
+        <parameter name="Minimum aligned samples (in one group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter column="" group="" name="Sample grouping"/>
+        </parameter>
+        <parameter name="RSD filter" selected="false">
+            <parameter name="Abundance measure">Area</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="mzmine_sample_type" group="qc" name="Sample grouping"/>
+            <parameter name="Maximum missing values">0.2</parameter>
+            <parameter name="Maximum RSD">0.2</parameter>
+            <parameter name="Keep undetected">false</parameter>
+        </parameter>
+        <parameter name="Significance/fold-change filter" selected="false">
+            <parameter name="Abundance measure">Height</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="" groupA="" groupB="" name="Metadata selection"/>
+            <parameter name="Significance test">WELCHS_T_TEST</parameter>
+            <parameter name="Maximum p-value">0.05</parameter>
+            <parameter name="log2(fold-change) threshold">1.0</parameter>
+            <parameter name="Fold-change filter">abs_both_sides</parameter>
+        </parameter>
+        <parameter name="Minimum signals in an isotope pattern" selected="false">2</parameter>
+        <parameter name="Validate 13C isotope pattern" selected="false">
+            <parameter name="m/z tolerance">
+                <absolutetolerance>5.0E-4</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="Max charge">1</parameter>
+            <parameter name="Estimate minimum carbon">true</parameter>
+            <parameter name="Remove if 13C">true</parameter>
+            <parameter name="Exclude isotopes">H,C,N,O,S</parameter>
+        </parameter>
+        <parameter name="Remove redundant isotope rows">false</parameter>
+        <parameter name="m/z" selected="false"/>
+        <parameter name="Retention time" selected="true">
+            <min>0.2</min>
+            <max>16.0</max>
+        </parameter>
+        <parameter name="Chromatographic width" selected="false">
+            <min>0.0</min>
+            <max>3.0</max>
+        </parameter>
+        <parameter name="Chromatographic FWHM" selected="false">
+            <min>0.0</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Charge" selected="false">
+            <min>1</min>
+            <max>2</max>
+        </parameter>
+        <parameter name="Mass defect" selected="false"/>
+        <parameter name="Kendrick mass defect" selected="false">
+            <parameter name="Kendrick mass defect">
+                <min>0.0</min>
+                <max>1.0</max>
+            </parameter>
+            <parameter name="Kendrick mass base"/>
+            <parameter name="Shift">0.0</parameter>
+            <parameter name="Charge">1</parameter>
+            <parameter name="Divisor">1</parameter>
+            <parameter name="Use Remainder of Kendrick mass">false</parameter>
+        </parameter>
+        <parameter name="Flexible filter (e.g., annotation)" selected="false">
+            <parameter name="Matching mode"/>
+            <parameter name="Type"/>
+            <parameter name="Search value"/>
+        </parameter>
+        <parameter name="Only identified?">false</parameter>
+        <parameter name="Text in identity" selected="false"/>
+        <parameter name="Text in comment" selected="false"/>
+        <parameter name="Require MS2 scan">false</parameter>
+        <parameter name="Require other detector correlation">false</parameter>
+        <parameter name="Never remove rows with MS2">true</parameter>
+        <parameter name="Never remove annotated rows">false</parameter>
+        <parameter name="Reset the row ID">true</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.align_append_rows.MergeAlignerModule" module_name="Merge lists" parameter_version="1">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Feature list name">Merged feature list</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.filter_rowsfilter.RowsFilterModule" module_name="Feature list rows filter" parameter_version="3">
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Name suffix">0.2-16min</parameter>
+        <parameter name="Keep or remove rows">Keep rows that match all criteria</parameter>
+        <parameter name="Original feature list">KEEP</parameter>
+        <parameter name="Minimum aligned samples" selected="false">
+            <abs>5</abs>
+            <rel>0.05</rel>
+        </parameter>
+        <parameter name="Minimum aligned samples (in any group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter name="Metadata grouping"/>
+        </parameter>
+        <parameter name="Minimum aligned samples (in one group)" selected="false">
+            <parameter name="Minimum samples">
+                <abs>1</abs>
+                <rel>0.0</rel>
+            </parameter>
+            <parameter column="" group="" name="Sample grouping"/>
+        </parameter>
+        <parameter name="RSD filter" selected="false">
+            <parameter name="Abundance measure">Area</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="mzmine_sample_type" group="qc" name="Sample grouping"/>
+            <parameter name="Maximum missing values">0.2</parameter>
+            <parameter name="Maximum RSD">0.2</parameter>
+            <parameter name="Keep undetected">false</parameter>
+        </parameter>
+        <parameter name="Significance/fold-change filter" selected="false">
+            <parameter name="Abundance measure">Height</parameter>
+            <parameter name="Missing value imputation">GLOBAL_LIMIT_OF_DETECTION</parameter>
+            <parameter column="" groupA="" groupB="" name="Metadata selection"/>
+            <parameter name="Significance test">WELCHS_T_TEST</parameter>
+            <parameter name="Maximum p-value">0.05</parameter>
+            <parameter name="log2(fold-change) threshold">1.0</parameter>
+            <parameter name="Fold-change filter">abs_both_sides</parameter>
+        </parameter>
+        <parameter name="Minimum signals in an isotope pattern" selected="false">2</parameter>
+        <parameter name="Validate 13C isotope pattern" selected="false">
+            <parameter name="m/z tolerance">
+                <absolutetolerance>5.0E-4</absolutetolerance>
+                <ppmtolerance>10.0</ppmtolerance>
+            </parameter>
+            <parameter name="Max charge">1</parameter>
+            <parameter name="Estimate minimum carbon">true</parameter>
+            <parameter name="Remove if 13C">true</parameter>
+            <parameter name="Exclude isotopes">H,C,N,O,S</parameter>
+        </parameter>
+        <parameter name="Remove redundant isotope rows">false</parameter>
+        <parameter name="m/z" selected="false"/>
+        <parameter name="Retention time" selected="true">
+            <min>0.2</min>
+            <max>16.02</max>
+        </parameter>
+        <parameter name="Chromatographic width" selected="false">
+            <min>0.0</min>
+            <max>3.0</max>
+        </parameter>
+        <parameter name="Chromatographic FWHM" selected="false">
+            <min>0.0</min>
+            <max>1.0</max>
+        </parameter>
+        <parameter name="Charge" selected="false">
+            <min>1</min>
+            <max>2</max>
+        </parameter>
+        <parameter name="Mass defect" selected="false"/>
+        <parameter name="Kendrick mass defect" selected="false">
+            <parameter name="Kendrick mass defect">
+                <min>0.0</min>
+                <max>1.0</max>
+            </parameter>
+            <parameter name="Kendrick mass base"/>
+            <parameter name="Shift">0.0</parameter>
+            <parameter name="Charge">1</parameter>
+            <parameter name="Divisor">1</parameter>
+            <parameter name="Use Remainder of Kendrick mass">false</parameter>
+        </parameter>
+        <parameter name="Flexible filter (e.g., annotation)" selected="false">
+            <parameter name="Matching mode"/>
+            <parameter name="Type"/>
+            <parameter name="Search value"/>
+        </parameter>
+        <parameter name="Only identified?">false</parameter>
+        <parameter name="Text in identity" selected="false"/>
+        <parameter name="Text in comment" selected="false"/>
+        <parameter name="Require MS2 scan">false</parameter>
+        <parameter name="Require other detector correlation">false</parameter>
+        <parameter name="Never remove rows with MS2">false</parameter>
+        <parameter name="Never remove annotated rows">false</parameter>
+        <parameter name="Reset the row ID">true</parameter>
+    </batchstep>
+    <batchstep method="io.github.mzmine.modules.dataprocessing.id_spectral_library_match.SpectralLibrarySearchModule" module_name="Spectral library search" parameter_version="3">
+        <parameter name="Spectral libraries" type="ALL_IMPORTED"/>
+        <parameter name="Feature lists" type="BATCH_LAST_FEATURELISTS"/>
+        <parameter name="Merge &amp; select fragment scans" selected_item="simple_merged">
+            <module name="simple_merged">
+                <parameter name="Presets">representative_scans</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.0015</absolutetolerance>
+                    <ppmtolerance>10.0</ppmtolerance>
+                </parameter>
+            </module>
+            <module name="preset_merged">
+                <parameter name="Presets">representative_scans</parameter>
+                <parameter name="Merging m/z tolerance">
+                    <absolutetolerance>0.0015</absolutetolerance>
+                    <ppmtolerance>10.0</ppmtolerance>
+                </parameter>
+                <parameter name="Merge">
+                    <selected>Across samples</selected>
+                </parameter>
+                <parameter name="Intensity merge mode">MAXIMUM</parameter>
+            </module>
+            <module name="input_scans">
+                <parameter name="Select input scans">most_intense_across_samples</parameter>
+            </module>
+        </parameter>
+        <parameter name="MS level filter" selected="MS2, level = 2">3</parameter>
+        <parameter name="Precursor m/z tolerance">
+            <absolutetolerance>0.001</absolutetolerance>
+            <ppmtolerance>5.0</ppmtolerance>
+        </parameter>
+        <parameter name="Spectral m/z tolerance">
+            <absolutetolerance>0.0015</absolutetolerance>
+            <ppmtolerance>10.0</ppmtolerance>
+        </parameter>
+        <parameter name="Remove precursor">true</parameter>
+        <parameter name="Minimum  matched signals">4</parameter>
+        <parameter name="Similarity" selected_item="Weighted cosine similarity">
+            <module name="Weighted cosine similarity">
+                <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                <parameter name="Minimum  cos similarity">0.7</parameter>
+                <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+            </module>
+            <module name="Composite cosine identity (e.g., GC-EI-MS; similar to NIST search)">
+                <parameter name="Weights">MassBank (mz^2 * I^0.5)</parameter>
+                <parameter name="Minimum  cos similarity">0.7</parameter>
+                <parameter name="Handle unmatched signals">KEEP ALL AND MATCH TO ZERO</parameter>
+            </module>
+        </parameter>
+        <parameter name="Advanced" selected="false">
+            <parameter name="Retention time tolerance" selected="false" unit="MINUTES">1.0</parameter>
+            <parameter name="Retention index tolerance" selected="false"/>
+            <parameter name="Skip library entries without RIs">false</parameter>
+            <parameter name="CCS tolerance [%]" selected="false">0.05</parameter>
+            <parameter name="13C deisotoping" selected="false">
+                <parameter name="m/z tolerance">
+                    <absolutetolerance>0.001</absolutetolerance>
+                    <ppmtolerance>5.0</ppmtolerance>
+                </parameter>
+                <parameter name="Monotonic shape">false</parameter>
+                <parameter name="Maximum charge"/>
+            </parameter>
+            <parameter name="Min matched isotope signals" selected="false">3</parameter>
+            <parameter name="Crop spectra to m/z overlap">false</parameter>
+        </parameter>
+    </batchstep>
+</batch>

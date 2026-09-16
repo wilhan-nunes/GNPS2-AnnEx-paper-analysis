@@ -25,6 +25,8 @@ statement.
   - `analysis.ipynb` — consolidated notebook reproducing the analyses in `scripts/`.
   - `data/ground_truth/` — the validated standards table
     (`validated_with_GNPS_by_LibraryName.csv`).
+  - `params/MSMLS_mzmine4_feature_finding.mzbatch` — the MZmine4 batch file used for
+    feature finding on the raw MSMLS `.mzML` files prior to FBMN/library search.
   - `outputs/` — generated figures (`new_figures/`) and evaluation reports (`reports/`,
     currently empty — regenerate via `scripts/eval_ground_truth.py` against
     `fe83e1b8c6a0494f85eaf6933f6d4bdf`).
@@ -66,3 +68,10 @@ in the main GNPS2-AnnEx repo against the GNPS2 task IDs above, or are available 
 request. Only the small ground-truth standards table
 (`MSMLS_lib/data/ground_truth/validated_with_GNPS_by_LibraryName.csv`) is included
 directly.
+
+The raw MSMLS LC-MS/MS data is deposited in MassIVE under accession
+`MSV000102790`. `.mzML` conversion was done with MSConvert, and feature finding
+was performed with MZmine4 using the batch parameters in
+`MSMLS_lib/params/MSMLS_mzmine4_feature_finding.mzbatch`, producing the `.mgf`/`.csv`
+files that were filtered to the 185 positive-mode standards and submitted as the
+FBMN job (`fe83e1b8c6a0494f85eaf6933f6d4bdf`).
