@@ -1,3 +1,0 @@
-scan,ground_truth,top_compound,count_based_top_compound,verdict,verdict_count_based,confidence_score,confidence_label,supporting_matches,total_matches,tanimoto_score,tanimoto_source,max_cosine,cosine_consistency,shared_peaks,mz_precision,top_cosine_overridden,top_cosine_compound
-3115,N-ACETYLPHENYLALANINE,PYRIDOXAL_PHOSPHATE [M+H]+,Pyridoxal 5'-phosphate - 40.0 eV [M+H]+,wrong,wrong,92.8,Consistent evidence,10,10,0.9167,single_structure,0.9755,0.9907,7.0,1.0,False,PYRIDOXAL_PHOSPHATE [M+H]+
-3170,SORBATE,DL-N-Acetyltryptophan - 40.0 eV [M+H]+,DL-N-Acetyltryptophan - 40.0 eV [M+H]+,wrong,wrong,91.4,Consistent evidence,10,10,0.9167,single_structure,0.9706,0.99,8.3,1.0,False,DL-N-Acetyltryptophan - 40.0 eV [M+H]+

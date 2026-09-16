@@ -11,15 +11,23 @@ statement.
 - **`cosine_consistency.md`** — method specification for the cosine-consistency
   metric described in the manuscript.
 - **`MSMLS_lib/`** — evaluation against a validated ground-truth MS/MS standards
-  library (GNPS2 task `31bb8489077242c69e3502e45f4061e2`, plus a confusion/match-count
-  analysis built on task `384d5ca63dae452b95c762743c78dc31`).
+  library (Sigma-Aldrich MSMLS, 185 positive-mode standards). The active analysis
+  task is `fe83e1b8c6a0494f85eaf6933f6d4bdf` — the GNPS2 FBMN job cited in the
+  manuscript, filtered to the 185 annotated standards (`analysis.ipynb`'s `TASK_ID`,
+  and `scripts/eval_ground_truth.py`). Task `384d5ca63dae452b95c762743c78dc31` is
+  the *complete, unfiltered* MSMLS dataset that `fe83e1b8...` was derived from; it
+  is kept only for provenance and is what the remaining per-script analyses
+  (confusion matrix, cosine-vs-app, match-count reports, mol-mass report, parameter
+  correlation matrix) were originally run against.
   - `scripts/` — figure- and report-generating scripts (confusion matrix, cosine-vs-app
     comparison, match-count reports, mirror plots, molecular-mass report, parameter
     correlation matrix, ground-truth evaluation).
   - `analysis.ipynb` — consolidated notebook reproducing the analyses in `scripts/`.
   - `data/ground_truth/` — the validated standards table
     (`validated_with_GNPS_by_LibraryName.csv`).
-  - `outputs/` — generated figures (`new_figures/`) and evaluation reports (`reports/`).
+  - `outputs/` — generated figures (`new_figures/`) and evaluation reports (`reports/`,
+    currently empty — regenerate via `scripts/eval_ground_truth.py` against
+    `fe83e1b8c6a0494f85eaf6933f6d4bdf`).
 - **`plusrise_dataset/`** — confidence-score analysis on the PlusRise dataset
   (GNPS2 task `b22ff1bc41624e29a28cf6e12fe17ad5`).
   - `scripts/` — figure scripts (entropy analysis, molecular-weight analysis,
@@ -30,11 +38,11 @@ statement.
 
 ## GNPS2 task IDs referenced
 
-| Task ID | Used in |
-|---|---|
-| `31bb8489077242c69e3502e45f4061e2` | `MSMLS_lib/scripts/eval_ground_truth.py` |
-| `384d5ca63dae452b95c762743c78dc31` | `MSMLS_lib/scripts/{confusion_matrix,cosine_vs_app,match_count_report*,mol_mass_report,param_correlation_matrix}.py` |
-| `b22ff1bc41624e29a28cf6e12fe17ad5` | `plusrise_dataset/` scripts and notebook |
+| Task ID | Role | Used in |
+|---|---|---|
+| `fe83e1b8c6a0494f85eaf6933f6d4bdf` | Active — filtered to the 185 annotated MSMLS standards; the ID cited in the manuscript | `MSMLS_lib/analysis.ipynb` (`TASK_ID`), `MSMLS_lib/scripts/eval_ground_truth.py` |
+| `b22ff1bc41624e29a28cf6e12fe17ad5` | Active — PlusRise urine dataset | `plusrise_dataset/` scripts and notebook |
+| `384d5ca63dae452b95c762743c78dc31` | Provenance only — complete, unfiltered MSMLS dataset that `fe83e1b8...` was filtered from | `MSMLS_lib/scripts/{confusion_matrix,cosine_vs_app,match_count_report*,mol_mass_report,param_correlation_matrix}.py` |
 
 ## Reproducing the analyses
 

@@ -25,7 +25,7 @@ sys.path.insert(0, ".")
 from bin.normalizer import _normalize_library_matches_dataframe, _clean_compound_name
 from bin.scorer import _compute_scan_level_confidence
 
-TASK_ID = "31bb8489077242c69e3502e45f4061e2"
+TASK_ID = "fe83e1b8c6a0494f85eaf6933f6d4bdf"
 GROUND_TRUTH_CSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "ground_truth", "validated_with_GNPS_by_LibraryName.csv")
 
 # ── Name normalisation helpers ────────────────────────────────────────────────
